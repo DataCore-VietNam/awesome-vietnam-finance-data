@@ -3,6 +3,13 @@
 All notable changes to this project will be documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.2.1](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/compare/v0.2.0...v0.2.1) (2026-05-30)
+
+
+### Bug Fixes
+
+* **ci:** drop awesome-lint (broken on Node 22+), bump markdownlint-cli2 to v19 ([b87e8df](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/commit/b87e8dfe6900731707db04ad29a9d0568038e67d))
+
 ## [0.2.0](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/compare/v0.1.0...v0.2.0) (2026-05-30)
 
 
