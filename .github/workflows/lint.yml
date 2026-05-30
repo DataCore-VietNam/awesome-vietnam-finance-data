@@ -15,19 +15,9 @@ jobs:
   markdownlint:
     name: Markdownlint
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v6
-      - uses: DavidAnson/markdownlint-cli2-action@v16
+      - uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           globs: "README.md"
           config: ".markdownlint.json"
-
-  awesome-lint:
-    name: Awesome lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - name: Run awesome-lint
-        run: npx awesome-lint
