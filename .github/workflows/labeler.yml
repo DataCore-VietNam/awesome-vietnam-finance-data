@@ -4,14 +4,15 @@ on:
   pull_request_target:
     types: [opened, synchronize]
 
-permissions:
-  contents: read
-  pull-requests: write
+permissions: read-all
 
 jobs:
   label:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
-      - uses: actions/labeler@v6
+      - uses: actions/labeler@f27b608878404679385c85cfa523b85ccb86e213 # v6
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
