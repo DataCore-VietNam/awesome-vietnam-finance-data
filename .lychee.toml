@@ -1,0 +1,44 @@
+# Lychee link-checker configuration
+# Docs: https://lychee.cli.rs/usage/configuration/
+
+# Accepted HTTP status codes (besides 200)
+accept = [
+  "100..=103",
+  "200..=299",
+  # 301/302 redirects are fine
+  "301",
+  "302",
+  "307",
+  "308",
+  # 403 = access forbidden to bots (common for government/financial sites)
+  "403",
+  # 429 = rate-limited — not a broken link
+  "429",
+]
+
+# Skip links matching these patterns
+exclude = [
+  # Placeholder text
+  "Add your",
+  # Awesome badge (external; checked separately)
+  "awesome\\.re",
+  # License badge
+  "licensebuttons\\.net",
+  # Relative anchors
+  "^#",
+]
+
+# Max retries per link
+max_retries = 3
+
+# Request timeout in seconds
+timeout = 20
+
+# Parallel requests
+threads = 4
+
+# User-agent (some sites block default curl UA)
+user_agent = "Mozilla/5.0 (compatible; lychee/link-checker; +https://github.com/DataCore-VietNam/awesome-vietnam-finance-data)"
+
+# GitHub token avoids API rate-limiting for github.com links
+github_token = "${GITHUB_TOKEN}"

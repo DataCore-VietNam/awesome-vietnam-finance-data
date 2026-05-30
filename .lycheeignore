@@ -1,0 +1,5 @@
+# Sites that block bots but are known-good
+# Add URLs here if lychee flags them as broken but they are actually live.
+# One pattern per line, supports regex.
+# Example:
+# https://www.example-that-blocks-bots.com
