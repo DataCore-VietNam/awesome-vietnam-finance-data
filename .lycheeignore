@@ -1,5 +1,22 @@
-# Sites that block bots but are known-good
-# Add URLs here if lychee flags them as broken but they are actually live.
-# One pattern per line, supports regex.
-# Example:
-# https://www.example-that-blocks-bots.com
+# Sites confirmed alive in browser but blocked by lychee from CI runners.
+# Verified manually — add here only after browser-confirming the URL is live.
+
+# Vietnamese government exchanges — self-signed SSL certs
+https://www.hnx.vn
+https://hnx.vn
+
+# Vietnamese government statistical offices — very slow / timeout from CI
+https://www.gso.gov.vn
+https://www.ssc.gov.vn
+https://www.sbv.gov.vn
+https://www.mof.gov.vn
+https://www.vsd.vn
+
+# World Bank — JS-rendered, returns 404 to crawlers but works in browser
+https://data.worldbank.org
+
+# Vietnam Investment Review — returns 410 to bots but serves browsers normally
+https://vir.com.vn
+
+# FiinGroup — redirects to homepage for bots
+https://fiingroup.vn/ApiDataFeed

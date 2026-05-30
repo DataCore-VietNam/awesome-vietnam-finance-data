@@ -49,7 +49,7 @@ Maintained by [DataCore Vietnam](https://datacore.vn). Contributions welcome —
 - [VnDirect Charts](https://dchart.vndirect.com.vn/) — Free chart and market data portal.
 - [HNX Market Data](https://hnx.vn/en-gb/co-phieu-etfs/du-lieu-thi-truong-ny.html) — Official HNX daily trading data downloads.
 - [HNX Bond Market](https://www.hnx.vn/en-gb/trai-phieu-chinh-phu.html) — Government bond auction results and yield data.
-- [Yahoo Finance — VNINDEX](https://finance.yahoo.com/quote/%5EVNINDEX.VN/history/) — Free VNINDEX historical price download.
+- [Yahoo Finance — VNINDEX](https://finance.yahoo.com/quote/%5EVNINDEX.VN/) — Free VNINDEX historical price download.
 - [World Bank Open Data — Vietnam](https://data.worldbank.org/country/vietnam) — Development and economic indicators.
 - [Trading Economics Vietnam](https://tradingeconomics.com/vietnam/indicators) — 20M+ macro indicators with Vietnam coverage and forecasts.
 - [ICE / HNX Fixed Income](https://developer.ice.com/fixed-income-data-services/catalog/hanoi-stock-exchange-hnx) — HNX bond data via ICE Developer Portal.

@@ -1,42 +1,54 @@
 # Lychee link-checker configuration
 # Docs: https://lychee.cli.rs/usage/configuration/
 
-# Accept these HTTP status codes in addition to 2xx
+# Accept these HTTP status codes
 accept = [
   "100..=103",
   "200..=299",
-  "301",
-  "302",
-  "307",
-  "308",
+  "301", "302", "307", "308",
   # 403 = bot-blocked (common on VN government/financial sites)
   "403",
+  # 406 = Not Acceptable (anti-bot measure, site is live)
+  "406",
+  # 410 = some VN sites return this to crawlers but serve browsers normally
+  "410",
   # 429 = rate-limited — not a broken link
   "429",
 ]
 
-# Exclude URL patterns (regex). Does NOT apply to link text.
+# Allow self-signed/untrusted SSL certs (Vietnamese gov sites: HNX, GSO, SSC)
+insecure = true
+
+# Exclude URL patterns (regex)
 exclude = [
-  # Badge URLs — checked by Shields.io/Awesome separately
+  # Badge URLs
   "https://awesome\\.re",
   "https://licensebuttons\\.net",
   # Local anchors
   "^#",
-  # Placeholder CONTRIBUTING.md references (not real URLs)
+  # Contributor placeholder links
   "CONTRIBUTING\\.md$",
+  # Yahoo Finance — aggressively blocks CI runners (HTTP/2 errors, redirects)
+  "finance\\.yahoo\\.com",
+  # VnExpress — returns 406 to all non-browser clients
+  "e\\.vnexpress\\.net",
+  # NDH.vn — unreachable from GitHub Actions runners (region-blocked)
+  "ndh\\.vn",
+  # DataCore docs — may not be public yet
+  "docs\\.datacore\\.vn",
 ]
+
+# Request timeout in seconds (VN gov sites are slow)
+timeout = 30
 
 # Max retries per link
 max_retries = 3
 
-# Request timeout in seconds
-timeout = 20
-
 # Parallel requests
 threads = 4
 
-# User-agent (prevents bot-blocking by default curl UA)
+# User-agent to reduce bot-blocking
 user_agent = "Mozilla/5.0 (compatible; lychee/link-checker; +https://github.com/DataCore-VietNam/awesome-vietnam-finance-data)"
 
-# GitHub token avoids rate-limiting for github.com URLs
+# Avoids rate-limiting for github.com URLs
 github_token = "${GITHUB_TOKEN}"
