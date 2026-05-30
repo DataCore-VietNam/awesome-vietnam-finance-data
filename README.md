@@ -39,7 +39,7 @@ Maintained by [DataCore Vietnam](https://datacore.vn). Contributions welcome —
 - [FiinGroup](https://fiingroup.vn/) — Premium financial information, analytics, and professional API data feed.
 - [VietstockFinance](https://finance.vietstock.vn/) — Aggregated market data, charting, and news platform.
 - [CafeF](https://cafef.vn/) — Financial news and market data aggregator with free ticker pages.
-- [iTick](https://itick.io/en) — Real-time and historical global market data API; covers VN stocks via REST and WebSocket.
+- [iTick](https://itick.io/en) — Real-time and historical market data API; covers VN stocks via REST and WebSocket.
 - [EODHD](https://eodhd.com/exchange/VN) — Historical OHLCV and fundamental data for Vietnam Exchange tickers.
 - [Algotrade](https://www.algotrade.vn/) — Algorithmic trading platform and knowledge hub focused on VN markets.
 
@@ -68,27 +68,27 @@ Maintained by [DataCore Vietnam](https://datacore.vn). Contributions welcome —
 ## R Packages
 
 - [datacore-r](https://github.com/DataCore-VietNam/datacore-r) — Official DataCore R client.
-- *Add your package here*
+- Add your package — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## APIs & SDKs
 
 - [DataCore API](https://docs.datacore.vn) — REST and MCP server for Vietnamese financial and alternative data.
 - [iTick API](https://docs.itick.io/en) — Real-time quotes, order book, and historical candlestick API; 99.99% uptime; free tier available.
-- [iTick VN Stock Guide](https://blog.itick.io/en/stock-api/2026-vietnam-stock-exchange-api-python-tutorial) — Python tutorial for Vietnam Stock Exchange (VN30, HOSE) API integration.
+- [iTick VN Stock Guide](https://blog.itick.io/en/stock-api/2026-vietnam-stock-exchange-api-python-tutorial) — Python tutorial for HOSE/VN30 API integration.
 - [EODHD VN Exchange API](https://eodhd.com/exchange/VN) — Ticker list, historical OHLCV, and fundamental data for VN-listed securities.
 - [Vietstock DataFeed](https://dichvu.vietstock.vn/du-lieu-tai-chinh/datafeed---du-lieu-tai-chinh-tich-hop-chuyen-nghiep) — Professional price feed, corporate actions, and financial statements.
 - [FiinGroup API](https://fiingroup.vn/ApiDataFeed) — Price feed, corporate reference data, financials, and corporate actions data feed.
-- [SSI iBoard API](https://iboard.ssi.com.vn/) — Unofficial real-time quote endpoint, widely used by open-source VN libraries.
+- [SSI iBoard API](https://iboard.ssi.com.vn/) — Unofficial real-time quote endpoint widely used by open-source VN libraries.
 - [Algotrade API Guide](https://hub.algotrade.vn/knowledge-hub/api-in-vietnam-stock-market/) — Overview of VN broker APIs (SSI, BSC, DNSE) with algorithmic trading context.
 
 ## Alternative Data
 
-- **E-commerce signals** — Transaction and GMV trends from Shopee, Tiki, and Lazada platforms.
-- **Satellite imagery** — Port throughput proxies for Saigon Port and Hai Phong; useful for industrial and trade indicators.
-- **Social sentiment** — Vietnamese-language ticker sentiment from Facebook groups, F319, and Reddit.
-- **On-chain flows** — Vietnam ranked 4th globally in Chainalysis 2025 Crypto Adoption Index; crypto flows proxy consumer activity.
+- E-commerce signals — Transaction and GMV trends from Shopee, Tiki, and Lazada platforms.
+- Satellite imagery — Port throughput proxies for Saigon Port and Hai Phong; useful for trade and industrial indicators.
+- Social sentiment — Vietnamese-language ticker sentiment from Facebook groups, F319, and Reddit.
+- On-chain flows — Vietnam ranked 4th globally in Chainalysis 2025 Crypto Adoption Index; on-chain volume proxies consumer activity.
 - [DataCore](https://datacore.vn) — Structured alternative data feeds for VN markets via API.
-- *Add your source here*
+- Add your source — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Macro / Economic Data
 
@@ -103,35 +103,34 @@ Maintained by [DataCore Vietnam](https://datacore.vn). Contributions welcome —
 ## ESG Data
 
 - [VNSI](https://www.hsx.vn/Modules/VNSI/Default.aspx) — Vietnam Sustainability Index on HOSE; constituent list and methodology.
-- [HNX Green Bonds](https://www.hnx.vn/) — Green bond listings and disclosure data on HNX.
-- *Add your source here*
+- [HNX Green Bonds](https://www.hnx.vn/en-gb/trai-phieu-xanh.html) — Green bond listings and disclosure data on HNX.
+- Add your source — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Crypto & Digital Assets
 
-Vietnam's Law on Digital Technology Industry (effective 1 Jan 2026) formally brought digital assets under government oversight. Licensed domestic crypto exchanges are expected to launch in 2026.
+Vietnam's Law on Digital Technology Industry (effective 1 Jan 2026) formally brought digital assets under government oversight. Licensed domestic exchanges are expected to launch in 2026.
 
-- [Chainalysis Global Crypto Adoption Index](https://www.chainalysis.com/blog/2025-global-crypto-adoption-index/) — Vietnam ranked 4th globally in 2025; strong DeFi and P2P usage.
+- [Chainalysis Crypto Adoption Index](https://www.chainalysis.com/blog/2025-global-crypto-adoption-index/) — Vietnam ranked 4th globally in 2025; strong DeFi and P2P usage.
 - [VN Crypto Licensing — Fintech Singapore](https://fintechnews.sg/127795/crypto/vietnam-crypto-exchanges/) — Overview of applicants for the first VN crypto exchange licenses.
-- [Yahoo Finance — VN Crypto Licensing News](https://finance.yahoo.com/news/vietnam-opens-crypto-exchange-licensing-163712299.html) — Coverage of regulatory developments.
-- *Add licensed exchange APIs here as they become available*
+- [VN Crypto Licensing — Yahoo Finance](https://finance.yahoo.com/news/vietnam-opens-crypto-exchange-licensing-163712299.html) — Coverage of regulatory developments.
+- Add your exchange API — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Backtesting & Quant Tools
 
 - [vnquant](https://github.com/phamdinhkhanh/vnquant) — Includes portfolio construction and basic backtest utilities for VN stocks.
 - [Algotrade Knowledge Hub](https://hub.algotrade.vn/) — 60+ articles on algo trading theory, backtesting, and optimization for VN markets.
-- [Tidy Finance Vietnam](https://tidy-finance.org/) — Open-source quant finance teaching materials with VN market examples.
-- *Add your tool here*
+- Add your tool — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Research & Academic
 
 - [SSRN — Vietnam Markets](https://www.ssrn.com/) — Academic papers on Vietnamese capital markets and financial economics.
 - [KPMG Vietnam 2026 Outlook](https://assets.kpmg.com/content/dam/kpmgsites/vn/pdf/2025/10/vietnam-2026-outlook.pdf) — Annual macro and capital market outlook report.
-- [Tidy Finance Vietnam](https://tidy-finance.org/) — Replicable empirical finance research and education materials.
+- [Tidy Finance Vietnam](https://tidy-finance.org/) — Open-source quant finance teaching materials and replicable research for VN markets.
 
 ## News & Media
 
 - [CafeF](https://cafef.vn/) — Leading Vietnamese financial news portal.
-- [VnExpress Business](https://e.vnexpress.vn/business) — English-language business and market news.
+- [VnExpress Business](https://e.vnexpress.net/business) — English-language business and market news.
 - [Vietnam Investment Review](https://vir.com.vn/) — English-language investment and business news.
 - [Nhip Cau Dau Tu](https://nhipcaudautu.vn/) — Investor-focused Vietnamese financial magazine.
 - [NDH Money](https://ndh.vn/) — Vietnamese financial news and analysis.
@@ -139,14 +138,14 @@ Vietnam's Law on Digital Technology Industry (effective 1 Jan 2026) formally bro
 ## Books & Courses
 
 - [Algotrade Lab](https://hub.algotrade.vn/knowledge-hub/algotrade-lab-overview/) — Hands-on algorithmic trading course for VN markets; covers API setup and live strategy testing.
-- *Add your resource here*
+- Add your resource — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Communities
 
 - [r/VietNamFinance](https://www.reddit.com/r/VietNamFinance) — Reddit community for Vietnamese finance discussion.
 - [F319](https://f319.com/) — Largest Vietnamese stock market forum; active trading signals and news.
-- [vnstock Discussions](https://github.com/thinh-vu/vnstock/discussions) — GitHub Discussions for vnstock library users and contributors.
-- *Add your community here*
+- [vnstock Discussions](https://github.com/thinh-vu/vnstock/discussions) — GitHub Discussions for vnstock users and contributors.
+- Add your community — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

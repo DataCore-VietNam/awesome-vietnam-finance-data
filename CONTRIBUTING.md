@@ -17,8 +17,15 @@ Thanks for contributing! This list follows the [Awesome manifesto](https://githu
 - Free or has a free tier
 - English or Vietnamese language
 
+## Link health
+
+All links are checked automatically by [Lychee](https://lychee.cli.rs/) on every pull request and on a weekly schedule (Mondays 10:00 ICT). If the CI badge on the README is red, a GitHub Issue has been filed automatically — check [Issues](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/issues?q=label%3Abroken-link) before adding new entries.
+
+If a legitimate site is flagged as broken due to bot-blocking, add it to `.lycheeignore`.
+
 ## PR process
 
 1. Fork
 2. Add your entry in the appropriate section
-3. Open a PR with a one-line description of why it's useful
+3. Open a PR — the link checker runs automatically
+4. A maintainer will review and merge

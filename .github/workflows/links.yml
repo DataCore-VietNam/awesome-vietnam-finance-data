@@ -11,7 +11,7 @@ on:
     paths:
       - "README.md"
   schedule:
-    # Run every Monday at 03:00 UTC (10:00 ICT)
+    # Every Monday 03:00 UTC = 10:00 ICT
     - cron: "0 3 * * 1"
   workflow_dispatch:
 
@@ -20,12 +20,13 @@ jobs:
     name: Check links
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       issues: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
-      - name: Run lychee
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Lychee
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
@@ -37,10 +38,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create issue on failure
+      - name: Create issue on scheduled failure
         if: failure() && github.event_name == 'schedule'
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "🔗 Broken links detected"
+          title: "Broken links detected"
           content-filepath: ./lychee/out.md
-          labels: broken-link, automated
+          labels: |
+            broken-link
+            automated
