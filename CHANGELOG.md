@@ -3,6 +3,19 @@
 All notable changes to this project will be documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.2.0](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/compare/v0.1.0...v0.2.0) (2026-05-30)
+
+
+### Features
+
+* expand resource list, add lychee CI link checker ([2870069](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/commit/28700692c46b8ba110d47b81bc5f1ff9963e2720))
+
+
+### Bug Fixes
+
+* markdownlint compliance, url fixes, CI improvements ([b9ef190](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/commit/b9ef1906717f64c05685dc18b9e107851765a51d))
+* resolve lychee false positives, fix Yahoo Finance URL, bump to Node 24 ([8ee17c0](https://github.com/DataCore-VietNam/awesome-vietnam-finance-data/commit/8ee17c01365c001836ed6a5532ae243c611f5025))
+
 ## [Unreleased]
 
 ### Added
