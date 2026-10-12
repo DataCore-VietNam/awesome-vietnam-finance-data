@@ -92,13 +92,14 @@ Maintained by [DataCore Vietnam](https://datacore.vn). Contributions welcome —
 
 ## Macro / Economic Data
 
-- [GSO Statistical Yearbook](https://www.gso.gov.vn/en/statistical-yearbook/) — Official annual national statistics publication.
-- [SBV Monetary Statistics](https://www.sbv.gov.vn/) — Central bank rates, FX reserves, and banking sector data.
-- [MOF Bond Auctions](https://www.mof.gov.vn/) — Government bond issuance schedules and auction results.
-- [World Bank Open Data — Vietnam](https://data.worldbank.org/country/vietnam) — Long-run development and economic indicators.
-- [IMF — Vietnam](https://www.imf.org/en/Countries/VNM) — Article IV reports, balance of payments, and fiscal data.
 - [ADB Vietnam Statistics](https://data.adb.org/country/viet-nam) — Asian Development Bank country data and key indicators.
+- [GSO Statistical Yearbook](https://www.gso.gov.vn/en/statistical-yearbook/) — Official annual national statistics publication.
+- [IMF — Vietnam](https://www.imf.org/en/Countries/VNM) — Article IV reports, balance of payments, and fiscal data.
+- [Invokely](https://invokely.ai/docs) - Cited World Bank Vietnam data via free MCP (500 calls/month); REST data paid.
+- [MOF Bond Auctions](https://www.mof.gov.vn/) — Government bond issuance schedules and auction results.
+- [SBV Monetary Statistics](https://www.sbv.gov.vn/) — Central bank rates, FX reserves, and banking sector data.
 - [Trading Economics Vietnam](https://tradingeconomics.com/vietnam/indicators) — Aggregated macro dashboard with historical data and forecasts.
+- [World Bank Open Data — Vietnam](https://data.worldbank.org/country/vietnam) — Long-run development and economic indicators.
 
 ## ESG Data
 
